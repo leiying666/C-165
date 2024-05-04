@@ -1,0 +1,36 @@
+执行下面程序时，欲将25和2.5分别赋给a和b，正确的输入方法是（）
+int a;
+float b;
+scanf("a=%d,b=%f",&a,&b);
+
+A
+25□2.5
+B
+25,2.5
+C
+a=25,b=2.5
+D
+a=25□b=2.5
+正确答案：C
+
+
+以下程序的功能是（）
+#include <stdio.h>
+int main(void) {
+    FILE *fp;
+    long int n;
+    fp = fopen("wj.txt", "rb");
+    fseek(fp, 0, SEEK_END);
+    n = ftell(fp);
+    fclose(fp);
+    printf("%ld", n);
+}
+A
+计算文件的起始地址
+B
+计算文件的终止地址
+C
+将文件指针定位到文件末尾
+D
+计算文件内容的字节数
+正确答案：D
